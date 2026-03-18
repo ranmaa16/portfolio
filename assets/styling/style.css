@@ -285,12 +285,14 @@ body.light-mode .nav-link {
  39.6047%, 41.4419% { content: "student"; }
   
   54.6977%, 75.2093% { content: ""; }
-  55.8372%, 74.0698% { content: "r"; }
-  56.9767%, 72.9302% { content: "re"; }
-  58.1163%, 71.7907% { content: "rea"; }
-  59.2558%, 70.6512% { content: "read"; }
-  60.3953%, 69.5116% { content: "reade"; }
-  61.5349%, 68.3721% { content: "reader"; }
+  55.8372%, 74.0698% { content: "d"; }
+  56.9767%, 72.9302% { content: "de"; }
+  58.1163%, 71.7907% { content: "des"; }
+  59.2558%, 70.6512% { content: "desi"; }
+  60.3953%, 69.5116% { content: "desig"; }
+  61.5349%, 68.3721% { content: "design"; }
+  63.5349%, 67.3721% { content: "designe"; }
+  64.5349%, 66.3721% { content: "designer"; }
 
   78.6279%, 96.8605% { content: ""; }
   79.7674%, 95.7209% { content: "h"; }
@@ -331,7 +333,7 @@ body.light-mode .nav-link {
   @keyframes sequencePopup {
     0%, 100% { content: "developer"; }
     25% { content: "student"; }
-    50% { content: "reader"; }
+    50% { content: "designer"; }
     75% { content: "human"; }
   }
 
