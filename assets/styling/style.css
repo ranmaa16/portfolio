@@ -14,8 +14,7 @@
   --text-secondary: #b0b0b0;
   --glow: 0 0 20px rgba(61, 237, 58, 0.514);
   --transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-} 
-
+}
 
 body {
   font-family: "Poppins", sans-serif;
@@ -83,7 +82,7 @@ body.light-mode .nav-link {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-style: italic;
-  font-family:  "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .nav-menu {
@@ -261,50 +260,153 @@ body.light-mode .nav-link {
   line-height: 1.2;
 }
 
-
 /* Typewriter effect 1 */
 @keyframes typing {
-  0.0000%, 27.3488% { content: ""; }
-  1.1395%, 26.2093% { content: "d"; }
-  2.2791%, 25.0698% { content: "de"; }
-  3.4186%, 23.9302% { content: "dev"; }
-  4.5581%, 22.7907% { content: "deve"; }
-  5.6977%, 21.6512% { content: "devel"; }
-  6.8372%, 20.5116% { content: "develo"; }
-  7.9767%, 19.3721% { content: "develop"; }
-  9.1163%, 18.2326% { content: "develope"; }
-  10.2558%, 17.0930% { content: "developer"; }
+  0.0000%,
+  27.3488% {
+    content: "";
+  }
+  1.1395%,
+  26.2093% {
+    content: "d";
+  }
+  2.2791%,
+  25.0698% {
+    content: "de";
+  }
+  3.4186%,
+  23.9302% {
+    content: "dev";
+  }
+  4.5581%,
+  22.7907% {
+    content: "deve";
+  }
+  5.6977%,
+  21.6512% {
+    content: "devel";
+  }
+  6.8372%,
+  20.5116% {
+    content: "develo";
+  }
+  7.9767%,
+  19.3721% {
+    content: "develop";
+  }
+  9.1163%,
+  18.2326% {
+    content: "develope";
+  }
+  10.2558%,
+  17.0930% {
+    content: "developer";
+  }
 
-  30.7674%, 51.2791% { content: ""; }
-  31.9070%, 50.1395% { content: "s"; }
-  33.0465%, 49.0000% { content: "st"; }
-  34.1860%, 47.8605% { content: "stu"; }
-  35.3256%, 46.7209% { content: "stud"; }
-  36.4651%, 45.5814% { content: "stude"; }
-  37.6047%, 44.4419% { content: "studen"; }
- 39.6047%, 41.4419% { content: "student"; }
-  
-  54.6977%, 75.2093% { content: ""; }
-  55.8372%, 74.0698% { content: "d"; }
-  56.9767%, 72.9302% { content: "de"; }
-  58.1163%, 71.7907% { content: "des"; }
-  59.2558%, 70.6512% { content: "desi"; }
-  60.3953%, 69.5116% { content: "desig"; }
-  61.5349%, 68.3721% { content: "design"; }
-  63.5349%, 67.3721% { content: "designe"; }
-  64.5349%, 66.3721% { content: "designer"; }
+  30.7674%,
+  51.2791% {
+    content: "";
+  }
+  31.9070%,
+  50.1395% {
+    content: "s";
+  }
+  33.0465%,
+  49.0000% {
+    content: "st";
+  }
+  34.1860%,
+  47.8605% {
+    content: "stu";
+  }
+  35.3256%,
+  46.7209% {
+    content: "stud";
+  }
+  36.4651%,
+  45.5814% {
+    content: "stude";
+  }
+  37.6047%,
+  44.4419% {
+    content: "studen";
+  }
+  39.6047%,
+  41.4419% {
+    content: "student";
+  }
 
-  78.6279%, 96.8605% { content: ""; }
-  79.7674%, 95.7209% { content: "h"; }
-  80.9070%, 94.5814% { content: "hu"; }
-  82.0465%, 93.4419% { content: "hum"; }
-  83.1860%, 92.3023% { content: "huma"; }
-  84.3256%, 91.1628% { content: "human"; }
+  54.6977%,
+  75.2093% {
+    content: "";
+  }
+  55.8372%,
+  74.0698% {
+    content: "d";
+  }
+  56.9767%,
+  72.9302% {
+    content: "de";
+  }
+  58.1163%,
+  71.7907% {
+    content: "des";
+  }
+  59.2558%,
+  70.6512% {
+    content: "desi";
+  }
+  60.3953%,
+  69.5116% {
+    content: "desig";
+  }
+  61.5349%,
+  68.3721% {
+    content: "design";
+  }
+  63.5349%,
+  67.3721% {
+    content: "designe";
+  }
+  64.5349%,
+  66.3721% {
+    content: "designer";
+  }
+
+  78.6279%,
+  96.8605% {
+    content: "";
+  }
+  79.7674%,
+  95.7209% {
+    content: "h";
+  }
+  80.9070%,
+  94.5814% {
+    content: "hu";
+  }
+  82.0465%,
+  93.4419% {
+    content: "hum";
+  }
+  83.1860%,
+  92.3023% {
+    content: "huma";
+  }
+  84.3256%,
+  91.1628% {
+    content: "human";
+  }
 }
 
 @keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
 
 .typewriter {
@@ -322,19 +424,25 @@ body.light-mode .nav-link {
   animation: blink 0.5s linear infinite;
 }
 
-
-
-
 @media (prefers-reduced-motion) {
   .typewriter::after {
     animation: none;
   }
-  
+
   @keyframes sequencePopup {
-    0%, 100% { content: "developer"; }
-    25% { content: "student"; }
-    50% { content: "designer"; }
-    75% { content: "human"; }
+    0%,
+    100% {
+      content: "developer";
+    }
+    25% {
+      content: "student";
+    }
+    50% {
+      content: "designer";
+    }
+    75% {
+      content: "human";
+    }
   }
 
   .typewriter::before {
@@ -1234,10 +1342,6 @@ body.light-mode .nav-link {
 
   .section-title {
     font-size: 1.4rem;
-  }
-
-  .section-subtitle {
-    font-size: 0.95rem;
   }
 
   .skill-card {
